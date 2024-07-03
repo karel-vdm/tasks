@@ -1,0 +1,51 @@
+[versions]
+androidx-espresso-core = "3.6.1"
+androidx-junit = "1.2.1"
+androidx-runner = "1.6.1"
+androidx-test-ext-junit = "1.2.1"
+appcompat = "1.7.0"
+core-testing = "1.1.1"
+espresso-core = "3.6.1"
+junit = "4.13.2"
+constraintlayout = "2.1.4"
+core-ktx = "1.13.1"
+koin-io = "3.5.3"
+kotlinx-coroutines-test = "1.7.3"
+kotlinx-datetime = "0.4.1"
+lifecycle-viewmodel-ktx = "2.8.2"
+material = "1.12.0"
+navigation-ui-ktx = "2.7.7"
+navigation-fragment-ktx = "2.7.7"
+room-ktx = "2.6.1"
+junit-ktx = "1.2.1"
+truth = "1.0.1"
+runner = "1.6.1"
+
+[libraries]
+androidx-espresso-core-v340 = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-espresso-core" }
+androidx-junit-v113 = { module = "androidx.test.ext:junit", version.ref = "androidx-test-ext-junit" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-ktx" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-ktx" }
+androidx-runner-v110 = { module = "androidx.test:runner", version.ref = "androidx-runner" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+core-testing = { module = "android.arch.core:core-testing", version.ref = "core-testing" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+junit = { module = "junit:junit", version.ref = "junit" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+koin-io = { group = "io.insert-koin", name = "koin-android", version.ref = "koin-io" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-ktx" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junit-ktx" }
+truth = { module = "com.google.truth:truth", version.ref = "truth" }
+androidx-runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+
+[plugins]
+
+[bundles]
