@@ -31,7 +31,7 @@ A typical interaction with the Room database will look as follows
 
 ## Design considerations
 
-### 1) Clean Architecture
+### Clean Architecture
 Clean Architecture is an architectural approach that emphasizes separation of concerns, testability, maintainability, and scalability. It aims to create a modular structure that is decoupled and independent of frameworks. 
 ####The key principles of Clean Architecture are:
   1) Separation of Concerns:
@@ -43,6 +43,18 @@ Clean Architecture is an architectural approach that emphasizes separation of co
   4) Independence of Frameworks:
        The core business logic and rules should not be tightly coupled to any specific framework or technology. Frameworks should be external details.   
      
+### MVVM
+MVVM helps to further separate the business and presentation logic of your application from the UI layer, making your code more modular, testable, and easier to maintain. 
+
+Since Android is advocating and building it's components with MVVM in mind I would advocate for the use of MVVM. Most new android components are built with the setup in mind that they will be used from an Android base ViewModel from my experience there are quite a few side effects and additional considerations to be taken into account when this is not the case.
+
+### Android Navigation Component
+This makes navigation much easier and is the android reccomended method of navigation. Again from experience I have found that the Android ecosystem as a whole works best when following Android best practises. The main objective is ease of use and avoiding side effects to out of the box behaviour.
+
+### Room Database
+Again it is very easy to setup and use and works with Android reccomended patterns and best practises out of the box. It also has support for Kotlin Flow and KMP support is in Alpha
+
+### Koin Dependency Injection
 
    
 
