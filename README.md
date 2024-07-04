@@ -1,5 +1,5 @@
-# tasks
-An application that allows users to create and view tasks.
+# Tasks
+An application that allows users to create and view tasks. Please note that the main focus of this project is the overarching archtecture, dependency inversion and avoiding tight coupling of features.
 
 ##
 Todo:
@@ -16,14 +16,14 @@ This project uses Clean Archtecture with MVVM and Domain Driven Design. From a c
 
 A typical interaction with the Room database will look as follows 
 
-### Presentation
+#### Presentation
   View -> ViewModel (ViewModel collects Flow and updates StateFlow)
   ViewModel StateFlow<> -> UseCase Flow<>
   
-### Domain
+#### Domain
   UseCase Flow<> -> Repository Flow<>
 
-### Data
+#### Data
   Repository Flow<> -> DataSource
 
 
