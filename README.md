@@ -55,6 +55,10 @@ This makes navigation much easier and is the android reccomended method of navig
 Again it is very easy to setup and use and works with Android reccomended patterns and best practises out of the box. It also has support for Kotlin Flow and KMP support is in Alpha
 
 ### Koin Dependency Injection
+I usually use Hilt that also has KMP support but for this project with KMP in mind I wanted to use a more Kotlin based framework for dependency injection. Koin is easy to setup but run time debbugin can b a bit of an issue.
+
+### StateFlow, Flow
+I find using StateFlow with a Sealed class as a very clean and readable apprach to reacting to events on the ViewModel
 
    
 
